@@ -3,7 +3,7 @@
  * Write a program that allows you to enter qn integer until you enter zero
  */
 
-int main(void)
+int mYprogram(void)
 {
 	int n;
 
@@ -16,4 +16,10 @@ int main(void)
 		scanf("%d", &n);
 	}
 	printf("You are out of this program");
+
+	return (0);
+}
+int main(void)
+{
+	mYprogram();
 }
