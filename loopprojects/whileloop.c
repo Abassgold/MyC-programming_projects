@@ -10,7 +10,7 @@ int mYprogram(void)
 	printf("Enter any number other than zero>> ");
 	scanf("%d", &n);
 
-	while (!(n == 0)
+	while (!(n == 0))
 	{
 		printf("Enter the number>> ");
 		scanf("%d", &n);
